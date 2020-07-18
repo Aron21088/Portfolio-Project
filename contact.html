@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    <title>Music Tutors</title>
+</head>
+<body>
+    
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="image/Week_4.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nucampNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"> <a class="nav-link" href="index.html"> <i class="fa fa-home fa-lg"> </i> Home </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="aboutus.html"> <i class="fa fa-info fa-lg"> </i> About </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="sites.html"> <i class="fa fa-list fa-lg"> </i> Sites </a> </li>
+                    <li class="nav-item active"> <a class="nav-link" href="#"> <i class="fa fa-address-card"> </i> Contact </a> </li>            
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--breadcrumb-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"> <a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Contact</li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!--contact us-->
+    <div class="col-sm-4 col-sm-4 text-center">
+        <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
+    </div>    
+
+    <!--info to regester?-->
+    <div class="container-fluid">
+        <div class="row row-content">
+            <div class="col-12">
+                <h2>Get Started</h2>
+                <hr />
+            </div>
+            <div class="col-md-10">
+                <form>
+                    <div class="form-group row">
+                        <label for="whoNeedTutor" class="col-md-3 col-form-label">Who Need Tutor?</label>
+                        <div class="col offset-md-1">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="myself">
+                                <label class="form-check-label" for="inlineRadio1"><strong>Myself</strong></label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="child">
+                                <label class="form-check-label" for="inlineRadio2"><strong>child</strong> </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="someoneelse">
+                                <label class="form-check-label" for="inlineRadio3"><strong>Someone else</strong></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="whoNeedTutor" class="col-md-3 col-form-label">How Soon?</label>
+                        <div class="col offset-md-1">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio4" value="rightaway">
+                                <label class="form-check-label" for="inlineRadio4"><strong>Right Away</strong></label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio5" value="infewweeks">
+                                <label class="form-check-label" for="inlineRadio5"><strong>In Few Weeks</strong> </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio6" value="notsure">
+                                <label class="form-check-label" for="inlineRadio6"><strong>Not Sure</strong></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+                        </div>
+                        <div class="col-7">
+                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="level" class="col-md-2 col-form-label">Select Level</label>
+                        <div class="col-md-10">
+                            <select class="col"  id="level">
+                                <option Selected>select...</option>
+                                <option value="college">College</option>
+                                <option value="highschool">High School</option>
+                                <option value="middleschool">Middle School</option>
+                                <option value="elementaryschool">Elementary School</option>
+                                <option value="testprep">Test Prep</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row row-content">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <hr class="light">
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="#">Sites</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <hr class="light">
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <h5>Connect</h5>
+                    <hr class="light">  
+                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> campsites@nucamp.co</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>    
